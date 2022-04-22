@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+</head>
+<body>
+    <h2>User form</h2>
+    <form action="postuser" method="post">
+        <p>Name: <input name="name" /></p>
+        <p>Age: <input name="age" /></p>
+        <p>Books:
+            <input name="books" /><br />
+            <input name="books" /><br />
+            <input name="books" /><br />
+        </p>
+        <p>
+            Languages:<br />
+                <select multiple name="languages">
+                    <option>C#</option>
+                    <option>Java</option>
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                </select>
+        </p>
+        <input type="submit" value="Send" />
+    </form>
+</body>
+</html>
