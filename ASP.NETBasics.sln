@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Request", "Request\Request.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendFiles", "SendFiles\SendFiles.csproj", "{DE624760-53E4-44BC-A31B-C814BEE4ABE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendForm", "SendForm\SendForm.csproj", "{82B1568D-6C5F-4483-9D72-FF118F04EEA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendForm", "SendForm\SendForm.csproj", "{82B1568D-6C5F-4483-9D72-FF118F04EEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redirect", "Redirect\Redirect.csproj", "{284D4143-D4DB-423C-AC1A-F1D314D543AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{82B1568D-6C5F-4483-9D72-FF118F04EEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B1568D-6C5F-4483-9D72-FF118F04EEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B1568D-6C5F-4483-9D72-FF118F04EEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284D4143-D4DB-423C-AC1A-F1D314D543AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284D4143-D4DB-423C-AC1A-F1D314D543AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284D4143-D4DB-423C-AC1A-F1D314D543AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284D4143-D4DB-423C-AC1A-F1D314D543AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
