@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendForm", "SendForm\SendFo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redirect", "Redirect\Redirect.csproj", "{284D4143-D4DB-423C-AC1A-F1D314D543AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendJSON", "SendJSON\SendJSON.csproj", "{C8D03E06-C94E-4A59-84E3-3B368CF8B3A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{284D4143-D4DB-423C-AC1A-F1D314D543AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{284D4143-D4DB-423C-AC1A-F1D314D543AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{284D4143-D4DB-423C-AC1A-F1D314D543AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D03E06-C94E-4A59-84E3-3B368CF8B3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D03E06-C94E-4A59-84E3-3B368CF8B3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D03E06-C94E-4A59-84E3-3B368CF8B3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D03E06-C94E-4A59-84E3-3B368CF8B3A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
