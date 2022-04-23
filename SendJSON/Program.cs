@@ -1,4 +1,5 @@
 using SendJSON;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
@@ -14,7 +15,9 @@ app.Run(async context =>
 
         if (request.HasJsonContentType())
         {
-            Person? person = await request.ReadFromJsonAsync<Person>();
+            var jsonoptions = new JsonSerializerOptions();
+            jsonoptions.Converters.Add(new PersonConverter());
+            Person? person = await request.ReadFromJsonAsync<Person>(jsonoptions);
 
             if (person is not null)
             {
