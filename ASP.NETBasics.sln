@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadFiles", "UploadFiles\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseMethod", "UseMethod\UseMethod.csproj", "{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseWhenMethod", "UseWhenMethod\UseWhenMethod.csproj", "{64F6863F-6482-4CE3-A434-B54FE91C07C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F6863F-6482-4CE3-A434-B54FE91C07C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F6863F-6482-4CE3-A434-B54FE91C07C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F6863F-6482-4CE3-A434-B54FE91C07C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F6863F-6482-4CE3-A434-B54FE91C07C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
