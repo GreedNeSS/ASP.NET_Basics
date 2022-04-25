@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendJSON", "SendJSON\SendJS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApp", "SimpleApp\SimpleApp.csproj", "{47261C72-4F2D-469C-9E26-4AAEF74DC46C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadFiles", "UploadFiles\UploadFiles.csproj", "{40A6917D-890B-4058-BD98-2F811169C6B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadFiles", "UploadFiles\UploadFiles.csproj", "{40A6917D-890B-4058-BD98-2F811169C6B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseMethod", "UseMethod\UseMethod.csproj", "{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{40A6917D-890B-4058-BD98-2F811169C6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A6917D-890B-4058-BD98-2F811169C6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A6917D-890B-4058-BD98-2F811169C6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38BB8CD-5C87-4183-A700-EF4080DFDF0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
