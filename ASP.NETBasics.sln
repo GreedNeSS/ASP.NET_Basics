@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapMethod", "MapMethod\MapM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareClass", "MiddlewareClass\MiddlewareClass.csproj", "{72C47EFF-6B51-4493-8976-4490B45F0A95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveyor", "Conveyor\Conveyor.csproj", "{D2C64F47-DF71-427F-A4F5-96D8DB62F4F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{72C47EFF-6B51-4493-8976-4490B45F0A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72C47EFF-6B51-4493-8976-4490B45F0A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72C47EFF-6B51-4493-8976-4490B45F0A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C64F47-DF71-427F-A4F5-96D8DB62F4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C64F47-DF71-427F-A4F5-96D8DB62F4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C64F47-DF71-427F-A4F5-96D8DB62F4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C64F47-DF71-427F-A4F5-96D8DB62F4F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
